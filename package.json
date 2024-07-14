@@ -1,0 +1,16 @@
+{
+  "name": "repaso_promises",
+  "version": "1.0.0",
+  "description": "Para este segundo ejercicio, te propongo que investigues la API de WeatherAPI (ver link más abajo) y armes una app muy similar a la anterior, con las siguientes características:\r La API sirve para obtener datos climáticos relativos a cada ciudad del planeta. El usuario tiene que poder solicitar por los datos relativos a una ciudad. Es decir, que el parámetro de búsqueda del programa es la ciudad: 'London', 'Buenos Aires', etc.\r El objetivo es imprimir en la terminal la temperatura máxima y mínima de los últimos 3 días, de la ciudad ingresada como parámetro.\r https://api.weatherapi.com/v1/[Ruta]?key=f0dd881d49d448e5b9803901242906&[masParametros]  \r Ej 1: https://api.weatherapi.com/v1/current.json?key=f0dd881d49d448e5b9803901242906&q=paris  \r Ej 2: https://api.weatherapi.com/v1/forecast.json?key=f0dd881d49d448e5b9803901242906&q=buenos%20aires",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node ./src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.3"
+  }
+}
